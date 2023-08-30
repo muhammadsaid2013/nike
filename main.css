@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: #EBEBEB;
+
+}
+
+.nav {
+    height: 65px;
+    background: #322E41;
+    display: flex;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    padding: 0 15px;
+    margin: auto;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    padding: 23px 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    transition: all 0.7s;
+}
+
+.nav-link:hover {
+    color: #D47300;
+    background: #FFFFFF;
+}
+
+.header-content {
+    height: 500px;
+    background: url(img/Nike-Adapt-BB\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-info {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.header-desc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.header-span {
+    font-weight: 900;
+}
+
+.main-left {
+    width: 540px;
+    padding: 15px;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+.main-title {
+    margin: 20px 0 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #2C2A2A;
+}
+
+.main-desc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #9B9B9B;
+}
+
+.main-card {
+    background: #FFFFFF;
+    border-radius: 6px;
+    width: 240px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 6px;
+    color: #2C2A2A;
+    margin: 12px 0;
+}
+
+.card-desc {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #9B9B9B;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -36px;
+    padding-bottom: 30px;
+}
+
+.main-right {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    gap: 30px;
+}
+
+.footer {
+    padding: 37px 0 57px;
+    background: #322E41;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+.input-name {
+    padding: 8px 0 8px 8px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #9B9B9B;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.input-message {
+    padding: 8px 0 60px 8px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #9B9B9B;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background: #544294;
+    border-radius: 6px;
+    padding: 4px 0;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-info{
+    display: flex;
+}
+.list1{
+    margin-right: 68px;
+}
+.footer-item:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-link{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+}
+.footer-link:hover{
+    color: #D57300;
+}
